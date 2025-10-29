@@ -6,6 +6,9 @@ export interface LoginRequest {
   password: string;
 }
 
+// Re-export from api.ts
+export type { LoginResponse } from './api';
+
 // Authentication Context Types
 export interface AuthContextType {
   // State

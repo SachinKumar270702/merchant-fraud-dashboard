@@ -124,7 +124,7 @@ export const NotificationSystem: React.FC<NotificationSystemProps> = ({
 
   // Auto-dismiss notifications
   useEffect(() => {
-    const timers: NodeJS.Timeout[] = [];
+    const timers: number[] = [];
 
     notifications.forEach(notification => {
       if (!notification.persistent && notification.duration !== 0) {
