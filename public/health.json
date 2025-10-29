@@ -1,0 +1,18 @@
+{
+  "status": "healthy",
+  "version": "1.0.0",
+  "timestamp": "2024-01-01T00:00:00Z",
+  "features": {
+    "authentication": true,
+    "rbac": true,
+    "dashboard": true,
+    "analytics": true,
+    "transactions": true,
+    "kpis": true
+  },
+  "build": {
+    "environment": "production",
+    "node_version": "18",
+    "build_time": "2024-01-01T00:00:00Z"
+  }
+}
